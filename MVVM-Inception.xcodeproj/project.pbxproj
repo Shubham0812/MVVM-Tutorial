@@ -3,27 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		F31C08C225C2A8610036F57F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31C08C125C2A8610036F57F /* AppDelegate.swift */; };
 		F31C08C425C2A8610036F57F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31C08C325C2A8610036F57F /* SceneDelegate.swift */; };
-		F31C08C625C2A8610036F57F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31C08C525C2A8610036F57F /* ViewController.swift */; };
+		F31C08C625C2A8610036F57F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31C08C525C2A8610036F57F /* HomeViewController.swift */; };
 		F31C08C925C2A8610036F57F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31C08C725C2A8610036F57F /* Main.storyboard */; };
 		F31C08CB25C2A8630036F57F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31C08CA25C2A8630036F57F /* Assets.xcassets */; };
 		F31C08CE25C2A8630036F57F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31C08CC25C2A8630036F57F /* LaunchScreen.storyboard */; };
+		F31C08DE25C2A9390036F57F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31C08DD25C2A9390036F57F /* DataManager.swift */; };
+		F31C08E125C2A94E0036F57F /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31C08E025C2A94E0036F57F /* CoreDataManager.swift */; };
+		F31C08E425C2A95C0036F57F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31C08E325C2A95C0036F57F /* NetworkManager.swift */; };
+		F31C08E825C2AA710036F57F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F31C08E725C2AA710036F57F /* Alamofire */; };
+		F3AF86B125C2AC71004D2169 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AF86B025C2AC71004D2169 /* Post.swift */; };
+		F3AF86B525C2BD99004D2169 /* PostListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AF86B425C2BD99004D2169 /* PostListViewModel.swift */; };
+		F3AF86B925C2BDEA004D2169 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AF86B825C2BDEA004D2169 /* Box.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F31C08BE25C2A8610036F57F /* MVVM-Inception.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-Inception.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F31C08C125C2A8610036F57F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F31C08C325C2A8610036F57F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F31C08C525C2A8610036F57F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F31C08C525C2A8610036F57F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F31C08C825C2A8610036F57F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F31C08CA25C2A8630036F57F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F31C08CD25C2A8630036F57F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F31C08CF25C2A8630036F57F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F31C08DD25C2A9390036F57F /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		F31C08E025C2A94E0036F57F /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		F31C08E325C2A95C0036F57F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F3AF86B025C2AC71004D2169 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		F3AF86B425C2BD99004D2169 /* PostListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewModel.swift; sourceTree = "<group>"; };
+		F3AF86B825C2BDEA004D2169 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F31C08E825C2AA710036F57F /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +70,77 @@
 		F31C08C025C2A8610036F57F /* MVVM-Inception */ = {
 			isa = PBXGroup;
 			children = (
-				F31C08C125C2A8610036F57F /* AppDelegate.swift */,
-				F31C08C325C2A8610036F57F /* SceneDelegate.swift */,
-				F31C08C525C2A8610036F57F /* ViewController.swift */,
-				F31C08C725C2A8610036F57F /* Main.storyboard */,
+				F31C08D625C2A86A0036F57F /* Code */,
 				F31C08CA25C2A8630036F57F /* Assets.xcassets */,
 				F31C08CC25C2A8630036F57F /* LaunchScreen.storyboard */,
 				F31C08CF25C2A8630036F57F /* Info.plist */,
 			);
 			path = "MVVM-Inception";
+			sourceTree = "<group>";
+		};
+		F31C08D625C2A86A0036F57F /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				F31C08D725C2A86F0036F57F /* Controllers */,
+				F3AF86AE25C2AC38004D2169 /* Models */,
+				F31C08D925C2A8CA0036F57F /* Modules */,
+				F31C08DC25C2A90F0036F57F /* Services */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		F31C08D725C2A86F0036F57F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F31C08C125C2A8610036F57F /* AppDelegate.swift */,
+				F31C08C325C2A8610036F57F /* SceneDelegate.swift */,
+				F3AF86B825C2BDEA004D2169 /* Box.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F31C08D925C2A8CA0036F57F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F31C08DA25C2A8D10036F57F /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F31C08DA25C2A8D10036F57F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F3AF86B325C2BD88004D2169 /* ViewModels */,
+				F31C08C525C2A8610036F57F /* HomeViewController.swift */,
+				F31C08C725C2A8610036F57F /* Main.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F31C08DC25C2A90F0036F57F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F31C08DD25C2A9390036F57F /* DataManager.swift */,
+				F31C08E025C2A94E0036F57F /* CoreDataManager.swift */,
+				F31C08E325C2A95C0036F57F /* NetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F3AF86AE25C2AC38004D2169 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F3AF86B025C2AC71004D2169 /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F3AF86B325C2BD88004D2169 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F3AF86B425C2BD99004D2169 /* PostListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +159,9 @@
 			dependencies = (
 			);
 			name = "MVVM-Inception";
+			packageProductDependencies = (
+				F31C08E725C2AA710036F57F /* Alamofire */,
+			);
 			productName = "MVVM-Inception";
 			productReference = F31C08BE25C2A8610036F57F /* MVVM-Inception.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +189,9 @@
 				Base,
 			);
 			mainGroup = F31C08B525C2A8610036F57F;
+			packageReferences = (
+				F31C08E625C2AA710036F57F /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = F31C08BF25C2A8610036F57F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +219,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F31C08C625C2A8610036F57F /* ViewController.swift in Sources */,
+				F3AF86B925C2BDEA004D2169 /* Box.swift in Sources */,
+				F3AF86B525C2BD99004D2169 /* PostListViewModel.swift in Sources */,
+				F31C08E425C2A95C0036F57F /* NetworkManager.swift in Sources */,
+				F31C08C625C2A8610036F57F /* HomeViewController.swift in Sources */,
+				F31C08DE25C2A9390036F57F /* DataManager.swift in Sources */,
 				F31C08C225C2A8610036F57F /* AppDelegate.swift in Sources */,
+				F31C08E125C2A94E0036F57F /* CoreDataManager.swift in Sources */,
+				F3AF86B125C2AC71004D2169 /* Post.swift in Sources */,
 				F31C08C425C2A8610036F57F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +429,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F31C08E625C2AA710036F57F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F31C08E725C2AA710036F57F /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F31C08E625C2AA710036F57F /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F31C08B625C2A8610036F57F /* Project object */;
 }
