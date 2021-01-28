@@ -10,10 +10,6 @@ import Foundation
 struct DataManager {
     
     // MARK:- variables
-    static var shared: DataManager =  {
-        return DataManager()
-    }()
-    
     let networkManager: NetworkManager
         
     // MARK:- initializers
