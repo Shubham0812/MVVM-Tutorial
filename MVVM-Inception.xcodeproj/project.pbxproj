@@ -20,6 +20,7 @@
 		F3AF86B125C2AC71004D2169 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AF86B025C2AC71004D2169 /* Post.swift */; };
 		F3AF86B525C2BD99004D2169 /* PostListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AF86B425C2BD99004D2169 /* PostListViewModel.swift */; };
 		F3AF86B925C2BDEA004D2169 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AF86B825C2BDEA004D2169 /* Box.swift */; };
+		F3AF86BC25C2E992004D2169 /* MVVM.png in Resources */ = {isa = PBXBuildFile; fileRef = F3AF86BB25C2E992004D2169 /* MVVM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		F3AF86B025C2AC71004D2169 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		F3AF86B425C2BD99004D2169 /* PostListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewModel.swift; sourceTree = "<group>"; };
 		F3AF86B825C2BDEA004D2169 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		F3AF86BB25C2E992004D2169 /* MVVM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MVVM.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			children = (
 				F31C08D625C2A86A0036F57F /* Code */,
 				F31C08CA25C2A8630036F57F /* Assets.xcassets */,
+				F3AF86BB25C2E992004D2169 /* MVVM.png */,
 				F31C08CC25C2A8630036F57F /* LaunchScreen.storyboard */,
 				F31C08CF25C2A8630036F57F /* Info.plist */,
 			);
@@ -207,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F31C08CE25C2A8630036F57F /* LaunchScreen.storyboard in Resources */,
+				F3AF86BC25C2E992004D2169 /* MVVM.png in Resources */,
 				F31C08CB25C2A8630036F57F /* Assets.xcassets in Resources */,
 				F31C08C925C2A8610036F57F /* Main.storyboard in Resources */,
 			);
